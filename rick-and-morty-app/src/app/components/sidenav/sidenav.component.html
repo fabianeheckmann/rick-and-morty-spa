@@ -1,0 +1,22 @@
+<div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed' : ''">
+  <div class="logo-container">
+    <img class="logo-img" src="../../../assets/rick-and-morty-folder-icon-43819.png" alt="" />
+    <div class="logo-text">Rick and Morty show</div>
+  </div>
+  <ul class="sidenav-nav">
+    <li class="sidenav-nav-item">
+      <a href="" class="sidenav-nav-link" routerLink="/characters" routerLinkActive="active">
+        <i class="bi bi-emoji-sunglasses-fill">
+          <span class="sidenav-link-text">Characters</span>
+        </i>
+      </a>
+    </li>
+    <li class="sidenav-nav-item">
+      <a href="" class="sidenav-nav-link" routerLink="/episodes">
+        <i class="bi bi-collection-fill">
+          <span class="sidenav-link-text">Episodes</span>
+        </i>
+      </a>
+    </li>
+  </ul>
+</div>
